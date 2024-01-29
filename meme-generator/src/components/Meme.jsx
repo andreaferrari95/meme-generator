@@ -8,7 +8,7 @@ export default function Meme() {
     randomImage: "http://i.imgflip.com/1bij.jpg",
   });
 
-  const [allMemeImages, setAllMemeImages] = React.useState(memesData);
+  const [allMemeImages] = React.useState(memesData);
 
   function getMemeImage() {
     const memesArray = allMemeImages.data.memes;
