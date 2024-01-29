@@ -67,3 +67,8 @@ main {
   cursor: pointer;
   height: 3rem;
 }
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
